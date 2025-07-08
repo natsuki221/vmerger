@@ -1,5 +1,11 @@
 # vmerger-cli
 
+![vmerger_logo](./doc/vmerger_logo.png)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![Language](https://img.shields.io/badge/language-Rust-purple.svg)
+![Version](https://img.shields.io/badge/version-v0.1.0-brightgreen.svg)
+
 A high-performance command-line tool for merging video files using FFmpeg, built with Rust.
 
 ## Features
@@ -317,19 +323,10 @@ If you encounter any issues or have questions:
    - Complete error message
    - Steps to reproduce
 
-## Performance Benchmarks
+## Lisence
 
-### Test Environment
-- CPU: Intel i7-8700K
-- RAM: 16GB DDR4
-- Storage: NVMe SSD
-- OS: Ubuntu 20.04
+This project is licensed under the MIT License. See [MIT License](LICENSE) for details.
 
-### Results
-| Operation | File Size | Time | Memory Usage |
-|-----------|-----------|------|--------------|
-| Merge 3 x 1GB MP4 | 3GB | 45s | 50MB |
-| Convert MP4 to AVI | 1GB | 30s | 30MB |
-| Merge 10 x 100MB files | 1GB | 25s | 40MB |
+## Author
 
-*Note: Performance depends on your hardware, file formats, and FFmpeg configuration.*
+Made with ❤️ by [natsuki Studio.](https://github.com/natsuki221)
