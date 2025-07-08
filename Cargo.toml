@@ -1,0 +1,28 @@
+[package]
+name = "vmerger-cli"
+version = "0.1.0"
+edition = "2024"
+authors = ["natsuki221<linnatsuki221@gmail.com>"]
+description = "A command-line tool for merging video files using FFmpeg"
+license = "MIT"
+repository = "https://github.com/natsuki221/vmerger-cli-rust"
+keywords = ["video", "merge", "ffmpeg", "cli"]
+categories = ["command-line-utilities", "multimedia"]
+
+[[bin]]
+name = "vmerger"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+anyhow = "1.0"
+thiserror = "1.0"
+tempfile = "3.8"
+
+[dev-dependencies]
+assert_cmd = "2.0"
+predicates = "3.0"
+tempfile = "3.8"
+
+[features]
+integration = []

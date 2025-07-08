@@ -1,0 +1,30 @@
+# Rust
+/target
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+tests/fixtures/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.m4a
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
